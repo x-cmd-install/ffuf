@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1539,
       "digest": "sha256:a220327e6a0d639fcac3816c1ebe73a58a9205ecff859b564c4f3466e398255d",
-      "download_count": 3257,
+      "download_count": 3261,
       "created_at": "2026-07-13T16:15:52Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_checksums.txt"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4078669,
       "digest": "sha256:86307885810d3c36ba4a3e9ba5178c2d9027bba0dd7f4ea39e39e7c972b62396",
-      "download_count": 21507,
+      "download_count": 21555,
       "created_at": "2026-07-13T16:15:49Z",
       "updated_at": "2026-07-13T16:15:51Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_linux_amd64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 3709316,
       "digest": "sha256:89ad4f50345e6a9a48ecc8d241811d582cedf96279276b48d666b12b31260484",
-      "download_count": 2653,
+      "download_count": 2664,
       "created_at": "2026-07-13T16:15:51Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_linux_arm64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 3840874,
       "digest": "sha256:b0e9c14a8083fa2e2b52a9a4e004dc132c61347fcda9b4c714fb275ed47c18db",
-      "download_count": 798,
+      "download_count": 800,
       "created_at": "2026-07-13T16:15:49Z",
       "updated_at": "2026-07-13T16:15:50Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_macOS_arm64.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 4205507,
       "digest": "sha256:717e3d103ee36ce743a18605be66a4424fca27758eebed1e8ebb2eb0a3645589",
-      "download_count": 10231,
+      "download_count": 10249,
       "created_at": "2026-07-13T16:15:48Z",
       "updated_at": "2026-07-13T16:15:49Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_windows_amd64.zip"
