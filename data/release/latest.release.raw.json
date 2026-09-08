@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1539,
       "digest": "sha256:a220327e6a0d639fcac3816c1ebe73a58a9205ecff859b564c4f3466e398255d",
-      "download_count": 3261,
+      "download_count": 3271,
       "created_at": "2026-07-13T16:15:52Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 119,
       "digest": "sha256:fbcfa167d8426a1e4e272d683fcc64eb6ce362b77eda78989de539f97bb541f3",
-      "download_count": 218,
+      "download_count": 219,
       "created_at": "2026-07-13T16:15:52Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_checksums.txt.sig"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 3940318,
       "digest": "sha256:f860728c8b83db65a68f7327ccad1f346592548fc097559d1dd4939fd89aa9a4",
-      "download_count": 106,
+      "download_count": 108,
       "created_at": "2026-07-13T16:15:51Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_linux_386.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4078669,
       "digest": "sha256:86307885810d3c36ba4a3e9ba5178c2d9027bba0dd7f4ea39e39e7c972b62396",
-      "download_count": 21555,
+      "download_count": 21677,
       "created_at": "2026-07-13T16:15:49Z",
       "updated_at": "2026-07-13T16:15:51Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_linux_amd64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 3709316,
       "digest": "sha256:89ad4f50345e6a9a48ecc8d241811d582cedf96279276b48d666b12b31260484",
-      "download_count": 2664,
+      "download_count": 2677,
       "created_at": "2026-07-13T16:15:51Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_linux_arm64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 4136328,
       "digest": "sha256:ad3c0a141c78213a78ce71a8cd0f2d140d9d9785b9cd44b8fac0d206d65dbb75",
-      "download_count": 202,
+      "download_count": 205,
       "created_at": "2026-07-13T16:15:51Z",
       "updated_at": "2026-07-13T16:15:52Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_macOS_amd64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 3840874,
       "digest": "sha256:b0e9c14a8083fa2e2b52a9a4e004dc132c61347fcda9b4c714fb275ed47c18db",
-      "download_count": 800,
+      "download_count": 810,
       "created_at": "2026-07-13T16:15:49Z",
       "updated_at": "2026-07-13T16:15:50Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_macOS_arm64.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 4111788,
       "digest": "sha256:31650acb56c450cddbc39dd6a69ec0706e4fbf1728dd1110df47ccad04518f92",
-      "download_count": 683,
+      "download_count": 688,
       "created_at": "2026-07-13T16:15:50Z",
       "updated_at": "2026-07-13T16:15:51Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_windows_386.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 4205507,
       "digest": "sha256:717e3d103ee36ce743a18605be66a4424fca27758eebed1e8ebb2eb0a3645589",
-      "download_count": 10249,
+      "download_count": 10336,
       "created_at": "2026-07-13T16:15:48Z",
       "updated_at": "2026-07-13T16:15:49Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_windows_amd64.zip"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 3775486,
       "digest": "sha256:a1a4e9005143e11c8a79f6ae0d0b24b67e54209b8b4f4736399211ebbc7a0b71",
-      "download_count": 652,
+      "download_count": 655,
       "created_at": "2026-07-13T16:15:49Z",
       "updated_at": "2026-07-13T16:15:50Z",
       "browser_download_url": "https://github.com/ffuf/ffuf/releases/download/v2.2.1/ffuf_2.2.1_windows_arm64.zip"
