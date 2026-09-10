@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.3.0"
   latestRelease: "v2.3.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:36:57Z
+  collectedAt: 2026-09-10T23:14:39Z
 timeline:
   created: 2018-11-08
   lastCommit: 2026-09-09
@@ -21,7 +21,7 @@ popularity:
   release: 28
   contributor: 52
   pullRequest: 364
-  issue: 554
+  issue: 558
 language:
   Go: 410010
 totalBytes: 410010
@@ -32,7 +32,7 @@ recent:
     mergedPR: 4
     openPR: 3
     closedIssue: 0
-    openIssue: 0
+    openIssue: 4
     commit: 5
   last60d:
     since: 2026-07-12
@@ -40,7 +40,7 @@ recent:
     mergedPR: 23
     openPR: 8
     closedIssue: 2
-    openIssue: 3
+    openIssue: 7
     commit: 22
   last90d:
     since: 2026-06-12
@@ -48,7 +48,7 @@ recent:
     mergedPR: 26
     openPR: 8
     closedIssue: 3
-    openIssue: 3
+    openIssue: 7
     commit: 28
   last180d:
     since: 2026-03-14
@@ -56,7 +56,7 @@ recent:
     mergedPR: 26
     openPR: 14
     closedIssue: 3
-    openIssue: 5
+    openIssue: 9
     commit: 28
   last360d:
     since: 2025-09-15
@@ -64,7 +64,7 @@ recent:
     mergedPR: 26
     openPR: 25
     closedIssue: 5
-    openIssue: 13
+    openIssue: 17
     commit: 28
   last720d:
     since: 2024-09-20
@@ -72,18 +72,18 @@ recent:
     mergedPR: 27
     openPR: 39
     closedIssue: 20
-    openIssue: 24
+    openIssue: 28
     commit: 30
 total:
   release: 28
   mergedPR: 237
   openPR: 69
   closedIssue: 389
-  openIssue: 165
+  openIssue: 169
   commit: 280
 ---
 path: /home/runner/.x-repo/github.com/ffuf/ffuf
-collectedAt: 2026-09-10T20:36:58Z
+collectedAt: 2026-09-10T23:14:39Z
 loc:
   Go:
     code: 10503
