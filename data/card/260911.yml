@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.3.0"
   latestRelease: "v2.3.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:34:10Z
+  collectedAt: 2026-09-11T19:27:21Z
 timeline:
   created: 2018-11-08
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 16662
+  star: 16665
   watcher: 170
   fork: 1597
   release: 28
@@ -83,7 +83,7 @@ total:
   commit: 280
 ---
 path: /home/runner/.x-repo/github.com/ffuf/ffuf
-collectedAt: 2026-09-11T05:34:11Z
+collectedAt: 2026-09-11T19:27:23Z
 loc:
   Go:
     code: 10503
