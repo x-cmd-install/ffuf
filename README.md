@@ -4,7 +4,7 @@
 
 Fast web fuzzer written in Go
 
-[![x-cmd/install — ffuf Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ffuf.svg)](https://x-cmd.com/install/ffuf)
+[![x-cmd/install — ffuf Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ffuf.svg)](https://x-cmd.com/install/ffuf)
 
 ## Install
 
@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,699 · **Forks**: 1,601 · **Open issues**: 555 · **Contributors**: 52
+- **Stars**: 16,705 · **Forks**: 1,600 · **Open issues**: 555 · **Contributors**: 52
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 237 · **Open PRs**: 70 · **Closed issues**: 390 · **Open issues**: 165 · **Commits**: 280
+- **Releases**: 28 · **Merged PRs**: 237 · **Open PRs**: 69 · **Closed issues**: 390 · **Open issues**: 165 · **Commits**: 280
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 3 | 4 | 1 | 0 | 4 |
-| last60d | 2026-07-24 | 1 | 4 | 6 | 2 | 1 | 5 |
-| 90d | 2026-06-24 | 3 | 26 | 9 | 3 | 3 | 28 |
-| last180d | 2026-03-26 | 3 | 26 | 14 | 4 | 5 | 28 |
-| 360d | 2025-09-27 | 3 | 26 | 25 | 6 | 13 | 28 |
-| last720d | 2024-10-02 | 3 | 27 | 40 | 19 | 24 | 30 |
+| 30d | 2026-08-24 | 1 | 3 | 3 | 1 | 0 | 4 |
+| last60d | 2026-07-25 | 1 | 4 | 5 | 2 | 1 | 5 |
+| 90d | 2026-06-25 | 3 | 26 | 8 | 3 | 3 | 28 |
+| last180d | 2026-03-27 | 3 | 26 | 13 | 4 | 5 | 28 |
+| 360d | 2025-09-28 | 3 | 26 | 24 | 6 | 13 | 28 |
+| last720d | 2024-10-03 | 3 | 27 | 39 | 19 | 24 | 30 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:51:01Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:45:43Z._
