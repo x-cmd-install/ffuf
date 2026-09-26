@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,715 · **Forks**: 1,600 · **Open issues**: 555 · **Contributors**: 53
+- **Stars**: 16,719 · **Forks**: 1,603 · **Open issues**: 554 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 68 · **Closed issues**: 392 · **Open issues**: 163 · **Commits**: 284
+- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 70 · **Closed issues**: 391 · **Open issues**: 163 · **Commits**: 284
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 1 | 8 | 2 | 1 | 0 | 8 |
-| last60d | 2026-07-27 | 1 | 9 | 3 | 2 | 1 | 9 |
-| 90d | 2026-06-27 | 3 | 31 | 7 | 3 | 3 | 32 |
-| last180d | 2026-03-29 | 3 | 31 | 12 | 4 | 5 | 32 |
-| 360d | 2025-09-30 | 3 | 31 | 23 | 6 | 13 | 32 |
-| last720d | 2024-10-05 | 3 | 32 | 38 | 19 | 24 | 34 |
+| 30d | 2026-08-27 | 1 | 8 | 4 | 1 | 0 | 8 |
+| last60d | 2026-07-28 | 1 | 9 | 5 | 2 | 1 | 9 |
+| 90d | 2026-06-28 | 3 | 31 | 9 | 3 | 3 | 32 |
+| last180d | 2026-03-30 | 3 | 31 | 14 | 4 | 5 | 32 |
+| 360d | 2025-10-01 | 3 | 31 | 25 | 6 | 13 | 32 |
+| last720d | 2024-10-06 | 3 | 32 | 40 | 18 | 24 | 34 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:30:11Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:33:11Z._
