@@ -14,12 +14,12 @@ x install ffuf
 
 ## Code insight
 
-Total: **11,173** lines of code across **107** files in the top 5 languages.
+Total: **11,204** lines of code across **107** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 11,173 | 1,437 | 1,458 | 102 |
-| Markdown | 0 | 585 | 130 | 5 |
+| Go | 11,204 | 1,450 | 1,460 | 102 |
+| Markdown | 0 | 587 | 130 | 5 |
 
 ## OpenSSF Scorecard
 
@@ -39,27 +39,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.3.0` (2026-09-09)
-- **Last commit**: 2026-09-24
+- **Last commit**: 2026-09-26
 - **Assets in release**: 18
 
 ## Popularity
 
-- **Stars**: 16,719 · **Forks**: 1,603 · **Open issues**: 554 · **Contributors**: 53
+- **Stars**: 16,725 · **Forks**: 1,603 · **Open issues**: 555 · **Contributors**: 54
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 70 · **Closed issues**: 391 · **Open issues**: 163 · **Commits**: 284
+- **Releases**: 28 · **Merged PRs**: 243 · **Open PRs**: 70 · **Closed issues**: 391 · **Open issues**: 164 · **Commits**: 285
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 1 | 8 | 4 | 1 | 0 | 8 |
-| last60d | 2026-07-28 | 1 | 9 | 5 | 2 | 1 | 9 |
-| 90d | 2026-06-28 | 3 | 31 | 9 | 3 | 3 | 32 |
-| last180d | 2026-03-30 | 3 | 31 | 14 | 4 | 5 | 32 |
-| 360d | 2025-10-01 | 3 | 31 | 25 | 6 | 13 | 32 |
-| last720d | 2024-10-06 | 3 | 32 | 40 | 18 | 24 | 34 |
+| 30d | 2026-08-28 | 1 | 9 | 4 | 1 | 1 | 9 |
+| last60d | 2026-07-29 | 1 | 10 | 5 | 2 | 2 | 10 |
+| 90d | 2026-06-29 | 3 | 32 | 9 | 3 | 4 | 33 |
+| last180d | 2026-03-31 | 3 | 32 | 14 | 4 | 6 | 33 |
+| 360d | 2025-10-02 | 3 | 32 | 25 | 6 | 14 | 33 |
+| last720d | 2024-10-07 | 3 | 33 | 40 | 18 | 25 | 35 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:33:11Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:59:10Z._
