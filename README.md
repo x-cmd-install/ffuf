@@ -27,7 +27,7 @@ Overall score: **5.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -44,7 +44,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,752 · **Forks**: 1,605 · **Open issues**: 555 · **Contributors**: 54
+- **Stars**: 16,770 · **Forks**: 1,609 · **Open issues**: 555 · **Contributors**: 54
 
 ## Totals (cumulative)
 
@@ -54,12 +54,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 9 | 4 | 1 | 1 | 9 |
-| last60d | 2026-07-30 | 1 | 10 | 5 | 2 | 2 | 10 |
-| 90d | 2026-06-30 | 3 | 32 | 9 | 3 | 4 | 33 |
-| last180d | 2026-04-01 | 3 | 32 | 14 | 4 | 6 | 33 |
-| 360d | 2025-10-03 | 3 | 32 | 25 | 6 | 14 | 33 |
-| last720d | 2024-10-08 | 3 | 33 | 40 | 18 | 25 | 35 |
+| 30d | 2026-08-30 | 1 | 9 | 4 | 1 | 1 | 9 |
+| last60d | 2026-07-31 | 1 | 10 | 5 | 1 | 2 | 10 |
+| 90d | 2026-07-01 | 3 | 32 | 9 | 3 | 4 | 33 |
+| last180d | 2026-04-02 | 3 | 32 | 14 | 4 | 6 | 33 |
+| 360d | 2025-10-04 | 3 | 32 | 25 | 6 | 14 | 33 |
+| last720d | 2024-10-09 | 3 | 33 | 40 | 18 | 25 | 35 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:58:15Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:24:09Z._
