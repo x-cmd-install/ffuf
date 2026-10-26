@@ -1,16 +1,43 @@
-- repo: nix_stable_25_11
+- repo: raspbian_testing
+  subrepo: main
   srcname: ffuf
+  binnames:
+    - ffuf
   visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
   maintainers:
-    - mail@fabian-affolter.ch
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - pedro@loami.eng.br
+  categories:
+    - misc
+- repo: aur
+  srcname: ffuf-git
+  binname: ffuf-git
+  visiblename: ffuf-git
+  version: 2.0.0.r6.g5fd821c
+  origversion: 2.0.0.r6.g5fd821c-1
+  status: rolling
+  summary: A fast web fuzzer written in Go.
+  maintainers:
+    - m3thodic@aur
   licenses:
     - MIT
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: debian_13
+  subrepo: trixie/main
   srcname: ffuf
   binnames:
     - ffuf
@@ -21,7 +48,7 @@
   maintainers:
     - andrade@debian.org
   categories:
-    - universe/misc
+    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: ffuf
@@ -152,6 +179,19 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - pedro@loami.eng.br
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: ffuf
@@ -286,18 +326,6 @@
     - zxp19821005@aur
   licenses:
     - MIT
-- repo: aur
-  srcname: ffuf-git
-  binname: ffuf-git
-  visiblename: ffuf-git
-  version: 2.0.0.r6.g5fd821c
-  origversion: 2.0.0.r6.g5fd821c-1
-  status: rolling
-  summary: A fast web fuzzer written in Go.
-  maintainers:
-    - m3thodic@aur
-  licenses:
-    - MIT
 - repo: blackarch
   srcname: ffuf
   binname: ffuf
@@ -321,21 +349,8 @@
     - pedro@loami.eng.br
   categories:
     - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - pedro@loami.eng.br
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: raspbian_stable
+  subrepo: main
   srcname: ffuf
   binnames:
     - ffuf
@@ -626,6 +641,17 @@
     - mail@fabian-affolter.ch
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: ffuf
   visiblename: ffuf
@@ -662,7 +688,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: ffuf
   binnames:
     - ffuf
@@ -676,7 +702,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: ffuf
   binnames:
     - ffuf
@@ -706,7 +732,7 @@
   binname: go-ffuf
   visiblename: www/go-ffuf
   version: 1.2.1
-  origversion: 1.2.1nb61
+  origversion: 1.2.1nb62
   status: outdated
   summary: Fast web fuzzer
   maintainers:
@@ -751,45 +777,6 @@
     - andrade@debian.org
   categories:
     - golang
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - pedro@loami.eng.br
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: 2.1.0-1
-  status: outdated
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: ffuf
@@ -823,19 +810,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: 2.1.0-1ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: ffuf
   binnames:
@@ -848,8 +822,34 @@
     - andrade@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-1
+  status: outdated
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: ffuf
   binnames:
     - ffuf
