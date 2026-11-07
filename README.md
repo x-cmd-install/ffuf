@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,001 · **Forks**: 1,626 · **Open issues**: 555 · **Contributors**: 53
+- **Stars**: 17,005 · **Forks**: 1,626 · **Open issues**: 555 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 77 · **Closed issues**: 390 · **Open issues**: 165 · **Commits**: 285
+- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 80 · **Closed issues**: 390 · **Open issues**: 165 · **Commits**: 285
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-09-07 | 1 | 8 | 13 | 1 | 2 | 9 |
-| 90d | 2026-08-08 | 1 | 10 | 14 | 1 | 2 | 10 |
-| last180d | 2026-05-10 | 3 | 31 | 17 | 4 | 5 | 32 |
-| 360d | 2025-11-11 | 3 | 31 | 29 | 6 | 14 | 32 |
-| last720d | 2024-11-16 | 3 | 32 | 47 | 16 | 25 | 35 |
+| 30d | 2026-10-08 | 0 | 0 | 10 | 0 | 1 | 0 |
+| last60d | 2026-09-08 | 1 | 8 | 16 | 1 | 2 | 9 |
+| 90d | 2026-08-09 | 1 | 10 | 17 | 1 | 2 | 10 |
+| last180d | 2026-05-11 | 3 | 31 | 20 | 4 | 5 | 32 |
+| 360d | 2025-11-12 | 3 | 31 | 32 | 6 | 13 | 32 |
+| last720d | 2024-11-17 | 3 | 32 | 50 | 16 | 25 | 35 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **71** distros on [repology.org](https://repology.org/project/ffuf). **15** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **72** distros on [repology.org](https://repology.org/project/ffuf). **16** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:19:57Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:37:22Z._
