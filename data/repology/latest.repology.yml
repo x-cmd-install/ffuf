@@ -1,133 +1,16 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - pedro@loami.eng.br
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: network/ffuf
-  visiblename: network/ffuf
-  version: 2.3.0
-  origversion: null
-  status: newest
-  maintainers:
-    - danix@danix.xyz
-  categories:
-    - network
-- repo: nix_stable_24_11
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: debian_14
-  subrepo: forky/main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
-- repo: deepin_25
+- repo: alpine_3_22
   subrepo: community
   srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
+  binname: ffuf-doc
+  visiblename: ffuf-doc
   version: 2.1.0
-  origversion: 2.1.0-1
+  origversion: 2.1.0-r17
   status: outdated
+  summary: fast web fuzzer written in Go (documentation)
   maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: ffuf
@@ -241,19 +124,6 @@
   origversion: 2.1.0-r17
   status: outdated
   summary: fast web fuzzer written in Go
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf-doc
-  visiblename: ffuf-doc
-  version: 2.1.0
-  origversion: 2.1.0-r17
-  status: outdated
-  summary: fast web fuzzer written in Go (documentation)
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -453,6 +323,71 @@
     - andrade@debian.org
   categories:
     - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-1
+  status: outdated
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - pedro@loami.eng.br
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - misc
 - repo: fedora_39
   subrepo: release
   srcname: ffuf
@@ -645,6 +580,39 @@
     - mail@fabian-affolter.ch
   licenses:
     - MIT
+- repo: nix_stable_24_11
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: ffuf
   visiblename: ffuf
@@ -681,7 +649,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: ffuf
   binnames:
     - ffuf
@@ -695,7 +663,7 @@
   categories:
     - web
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: ffuf
   binnames:
     - ffuf
@@ -796,6 +764,38 @@
     - andrade@debian.org
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: network/ffuf
+  visiblename: network/ffuf
+  version: 2.3.0
+  origversion: null
+  status: newest
+  maintainers:
+    - danix@danix.xyz
+  categories:
+    - network
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: ffuf
@@ -883,6 +883,19 @@
   version: 2.1.0
   origversion: 2.1.0-1build1
   status: outdated
+  maintainers:
+    - andrade@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: newest
   maintainers:
     - andrade@debian.org
   categories:
