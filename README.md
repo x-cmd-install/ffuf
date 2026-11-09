@@ -23,13 +23,13 @@ Total: **11,204** lines of code across **107** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.7 / 10**
+Overall score: **5.6 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -44,7 +44,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,010 · **Forks**: 1,626 · **Open issues**: 555 · **Contributors**: 53
+- **Stars**: 17,012 · **Forks**: 1,627 · **Open issues**: 555 · **Contributors**: 53
 
 ## Totals (cumulative)
 
@@ -54,12 +54,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 10 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 1 | 5 | 17 | 1 | 2 | 9 |
-| 90d | 2026-08-10 | 1 | 10 | 18 | 1 | 2 | 10 |
-| last180d | 2026-05-12 | 3 | 31 | 21 | 4 | 5 | 32 |
-| 360d | 2025-11-13 | 3 | 31 | 33 | 6 | 13 | 32 |
-| last720d | 2024-11-18 | 3 | 32 | 51 | 16 | 25 | 35 |
+| 30d | 2026-10-10 | 0 | 0 | 10 | 0 | 0 | 0 |
+| last60d | 2026-09-10 | 0 | 5 | 17 | 1 | 2 | 5 |
+| 90d | 2026-08-11 | 1 | 10 | 18 | 1 | 2 | 10 |
+| last180d | 2026-05-13 | 3 | 31 | 21 | 4 | 5 | 32 |
+| 360d | 2025-11-14 | 3 | 31 | 33 | 6 | 13 | 32 |
+| last720d | 2024-11-19 | 3 | 32 | 51 | 16 | 25 | 35 |
 
 ## Release assets
 
@@ -110,4 +110,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:35:07Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:20:47Z._
