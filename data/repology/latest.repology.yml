@@ -1,44 +1,12 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: homebrew
   srcname: ffuf
-  binnames:
-    - ffuf
   visiblename: ffuf
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - pedro@loami.eng.br
-  categories:
-    - misc
-- repo: alpine_3_19
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: 2.1.0-r5
-  status: outdated
-  summary: fast web fuzzer written in Go
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf-doc
-  visiblename: ffuf-doc
-  version: 2.1.0
-  origversion: 2.1.0-r5
-  status: outdated
-  summary: fast web fuzzer written in Go (documentation)
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: devuan_unstable
-  subrepo: unstable/main
+  version: 2.3.0
+  origversion: null
+  status: newest
+  summary: Fast web fuzzer written in Go
+- repo: raspbian_testing
+  subrepo: main
   srcname: ffuf
   binnames:
     - ffuf
@@ -50,71 +18,6 @@
     - andrade@debian.org
   categories:
     - misc
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf
-  visiblename: ffuf
-  version: 2.0.0
-  origversion: 2.0.0-r9
-  status: outdated
-  summary: fast web fuzzer written in Go
-  maintainers:
-    - mxkrsv@disroot.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: 2.1.0-r7
-  status: outdated
-  summary: fast web fuzzer written in Go
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf-doc
-  visiblename: ffuf-doc
-  version: 2.1.0
-  origversion: 2.1.0-r7
-  status: outdated
-  summary: fast web fuzzer written in Go (documentation)
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: 2.1.0-r12
-  status: outdated
-  summary: fast web fuzzer written in Go
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf-doc
-  visiblename: ffuf-doc
-  version: 2.1.0
-  origversion: 2.1.0-r12
-  status: outdated
-  summary: fast web fuzzer written in Go (documentation)
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: ffuf
@@ -128,6 +31,123 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf
+  visiblename: ffuf
+  version: 2.0.0
+  origversion: 2.0.0-r9
+  status: outdated
+  summary: fast web fuzzer written in Go
+  maintainers:
+    - mxkrsv@disroot.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf-doc
+  visiblename: ffuf-doc
+  version: 2.0.0
+  origversion: 2.0.0-r9
+  status: outdated
+  summary: fast web fuzzer written in Go (documentation)
+  maintainers:
+    - mxkrsv@disroot.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-r5
+  status: outdated
+  summary: fast web fuzzer written in Go
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf-doc
+  visiblename: ffuf-doc
+  version: 2.1.0
+  origversion: 2.1.0-r5
+  status: outdated
+  summary: fast web fuzzer written in Go (documentation)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-r7
+  status: outdated
+  summary: fast web fuzzer written in Go
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf-doc
+  visiblename: ffuf-doc
+  version: 2.1.0
+  origversion: 2.1.0-r7
+  status: outdated
+  summary: fast web fuzzer written in Go (documentation)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-r12
+  status: outdated
+  summary: fast web fuzzer written in Go
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: ffuf
+  binname: ffuf-doc
+  visiblename: ffuf-doc
+  version: 2.1.0
+  origversion: 2.1.0-r12
+  status: outdated
+  summary: fast web fuzzer written in Go (documentation)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - pedro@loami.eng.br
+  categories:
+    - universe/misc
 - repo: alpine_3_22
   subrepo: community
   srcname: ffuf
@@ -375,16 +395,32 @@
     - andrade@debian.org
   categories:
     - misc
-- repo: slackbuilds
-  srcname: network/ffuf
-  visiblename: network/ffuf
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - pedro@loami.eng.br
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ffuf
+  binnames:
+    - ffuf
+  visiblename: ffuf
   version: 2.3.0
-  origversion: null
+  origversion: 2.3.0-1
   status: newest
   maintainers:
-    - danix@danix.xyz
+    - andrade@debian.org
   categories:
-    - network
+    - misc
 - repo: fedora_39
   subrepo: release
   srcname: ffuf
@@ -477,6 +513,22 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: ffuf
+  binnames:
+    - ffuf
+    - ffuf-debuginfo
+    - ffuf-debugsource
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: 2.1.0-8.fc45
+  status: outdated
+  summary: Fast web fuzzer written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: ffuf
@@ -528,13 +580,6 @@
 - repo: homebrew
   srcname: ffuf
   visiblename: ffuf
-  version: 2.3.0
-  origversion: null
-  status: newest
-  summary: Fast web fuzzer written in Go
-- repo: homebrew
-  srcname: ffuf
-  visiblename: ffuf
   version: HEAD
   origversion: null
   status: rolling
@@ -566,6 +611,50 @@
     - MIT
   categories:
     - security
+- repo: nix_stable_24_05
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: ffuf
+  visiblename: ffuf
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Tool for web fuzzing
+  maintainers:
+    - mail@fabian-affolter.ch
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: ffuf
   visiblename: ffuf
@@ -717,19 +806,6 @@
     - andrade@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: newest
-  maintainers:
-    - andrade@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: ffuf
@@ -739,6 +815,16 @@
   status: newest
   licenses:
     - MIT
+- repo: slackbuilds
+  srcname: network/ffuf
+  visiblename: network/ffuf
+  version: 2.3.0
+  origversion: null
+  status: newest
+  maintainers:
+    - danix@danix.xyz
+  categories:
+    - network
 - repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: ffuf
@@ -843,73 +929,3 @@
     - abenson+void@gmail.com
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: ffuf
-  visiblename: ffuf
-  version: 2.1.0
-  origversion: null
-  status: outdated
-  summary: Tool for web fuzzing
-  maintainers:
-    - mail@fabian-affolter.ch
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ffuf
-  binname: ffuf-doc
-  visiblename: ffuf-doc
-  version: 2.0.0
-  origversion: 2.0.0-r9
-  status: outdated
-  summary: fast web fuzzer written in Go (documentation)
-  maintainers:
-    - mxkrsv@disroot.org
-  licenses:
-    - MIT
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: ffuf
-  binnames:
-    - ffuf
-  visiblename: ffuf
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - pedro@loami.eng.br
-  categories:
-    - universe/misc
