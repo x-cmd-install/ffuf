@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,111 · **Forks**: 1,638 · **Open issues**: 554 · **Contributors**: 53
+- **Stars**: 17,119 · **Forks**: 1,639 · **Open issues**: 554 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 84 · **Closed issues**: 390 · **Open issues**: 164 · **Commits**: 285
+- **Releases**: 28 · **Merged PRs**: 242 · **Open PRs**: 85 · **Closed issues**: 390 · **Open issues**: 164 · **Commits**: 285
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 12 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 19 | 0 | 2 | 0 |
-| 90d | 2026-08-26 | 1 | 9 | 21 | 1 | 2 | 9 |
-| last180d | 2026-05-28 | 3 | 31 | 24 | 4 | 5 | 32 |
-| 360d | 2025-11-29 | 3 | 31 | 35 | 6 | 11 | 32 |
-| last720d | 2024-12-04 | 3 | 32 | 53 | 16 | 24 | 35 |
+| 30d | 2026-10-26 | 0 | 0 | 13 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 19 | 0 | 1 | 0 |
+| 90d | 2026-08-27 | 1 | 9 | 22 | 1 | 2 | 9 |
+| last180d | 2026-05-29 | 3 | 31 | 25 | 4 | 5 | 32 |
+| 360d | 2025-11-30 | 3 | 31 | 36 | 6 | 11 | 32 |
+| last720d | 2024-12-05 | 3 | 32 | 54 | 16 | 24 | 35 |
 
 ## Release assets
 
@@ -84,23 +84,6 @@ Lowest-scoring checks:
 | [ffuf_2.3.0_windows_amd64.zip](https://github.com/ffuf/ffuf/releases/download/v2.3.0/ffuf_2.3.0_windows_amd64.zip) | 4.3 MiB | `native/win/x64` |
 | [ffuf_2.3.0_windows_arm64.zip](https://github.com/ffuf/ffuf/releases/download/v2.3.0/ffuf_2.3.0_windows_arm64.zip) | 3.8 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **73** distros on [repology.org](https://repology.org/project/ffuf). **16** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.3.0` | ✅ latest |
-| Debian 14 | `2.3.0` | ✅ latest |
-| Debian 13 | `2.1.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.1.0` | ⚠️ outdated |
-| Homebrew | `2.3.0` | ✅ latest |
-| Fedora rawhide | `2.1.0` | ⚠️ outdated |
-| Nix unstable | `2.3.0` | ✅ latest |
-| Void | `2.3.0` | ✅ latest |
-| Alpine edge | `2.1.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ffuf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -110,4 +93,4 @@ Install metadata for ffuf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:58:30Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:52:12Z._
